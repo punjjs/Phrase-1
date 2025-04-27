@@ -5,7 +5,7 @@ from dotenv import load_dotenv
 load_dotenv()
 
 # set up gemini
-client = genai.Client(api_key="AIzaSyB4YTAmyd-PD3Y8nZsI-sPR-G4VX_HF4mA")
+client = genai.Client(api_key="")
 model = "gemini-2.0-flash"
 
 
