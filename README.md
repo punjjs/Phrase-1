@@ -50,6 +50,7 @@
    client = genai.Client(api_key="")
    ```
    between double quotes add Gemini API Key
+   
    Create your API key on below link
    ```bash
    https://aistudio.google.com/apikey
