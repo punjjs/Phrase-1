@@ -6,7 +6,7 @@
 
 ## Features
 
-- Automatically **extract**:
+- Automatically **extract**
   - Patient's full name
   - Patient's age
   - Patient's gender
@@ -20,7 +20,7 @@
 
 ## Installation
 
-1. **Clone the repository**:
+1. **Clone the repository**
 
    ```bash
    git clone https://github.com/punjjs/Phrase-1
@@ -39,15 +39,19 @@
     py -m venv myenv
     myenv\Scripts\activate
    ```
-4. **Install dependencies**:
+4. **Install dependencies**
 
    ```bash
    pip install -r requirements.txt
    ```
 
-5. ** add your Gemini API Key in `examine_image.py` code
+5. ** add your Gemini API Key in `examine_image.py` code**
+   ```bash
+   client = genai.Client(api_key="")
+   ```
+   between double add Gemini API Key
 
-6. **Run the `examine_image.py` **:
+7. **Run the `examine_image.py` **:
 
    ```bash
    py examine_image.py
