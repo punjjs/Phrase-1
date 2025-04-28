@@ -55,10 +55,10 @@
    ```bash
    https://aistudio.google.com/apikey
    ```
-   **On terminal you will find Extracted patient and doctor information.**
 
-7. **Run the `examine_image.py`**
+6. **Run the `examine_image.py`**
    
    ```bash
    py examine_image.py
    ```
+   **On terminal you will find Extracted patient and doctor information.**
