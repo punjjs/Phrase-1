@@ -25,7 +25,6 @@
    ```bash
    git clone https://github.com/punjjs/Phrase-1
    ```
-   ```bash
 2. **Add data**
    ```bash
    Project 
@@ -37,7 +36,7 @@
    ```
 3. **Create and activate `virtual environment`**
    ```bash
-    python -m venv myenv
+    py -m venv myenv
     myenv\Scripts\activate
    ```
 4. **Install dependencies**:
