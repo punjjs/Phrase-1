@@ -55,6 +55,7 @@
    ```bash
    https://aistudio.google.com/apikey
    ```
+   **On terminal you will find Extracted patient and doctor information.**
 
 7. **Run the `examine_image.py`**
    
