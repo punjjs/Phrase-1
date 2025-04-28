@@ -51,8 +51,8 @@
    ```
    between double quotes add Gemini API Key
 
-7. **Run the `examine_image.py` **:
-
+7. **Run the `examine_image.py`**
+   
    ```bash
    py examine_image.py
    ```
