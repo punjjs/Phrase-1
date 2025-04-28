@@ -45,11 +45,11 @@
    pip install -r requirements.txt
    ```
 
-5. ** add your Gemini API Key in `examine_image.py` code**
+5. **Add your Gemini API Key in `examine_image.py` code**
    ```bash
    client = genai.Client(api_key="")
    ```
-   between double add Gemini API Key
+   between double quotes add Gemini API Key
 
 7. **Run the `examine_image.py` **:
 
