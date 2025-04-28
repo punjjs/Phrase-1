@@ -1,33 +1,55 @@
-This project involves processing a dataset of prescription images using an LLM. Follow the steps below to set up and run the project.
+# Medical Prescription Extractor
 
-Step 1: Clone the Repository
-git clone <repository-url>
-cd Phrase-1
+- **Extract** patient and doctor information using **Google Gemini AI**.
 
-Step 2: Prepare the Dataset
-Phrase-1/
-└── data/
-    ├── 1.jpg
-    ├── 2.jpg
-    └── ...
-    └── 129.jpg
+---
 
-Step 3: Set Up the Virtual Environment (Windows)
-Create a virtual environment:
-python -m venv myenv
-Activate the virtual environment:
-myenv\Scripts\activate
+## Features
 
+- Automatically **extract**:
+  - Patient's full name
+  - Patient's age
+  - Patient's gender
+  - Doctor's full name
+  - Doctor's license number
+  - Prescription date
+  - List of medications
+  - Additional notes
 
-Step 4: Install Dependencies
-pip install -r requirements.txt
+---
 
-Step 5: Add Your API Key
-genai.Client(api_key="your_api_key_here")
+## Installation
 
-Step 6: Run the Script
-python examine_image.py
+1. **Clone the repository**:
 
+   ```bash
+   git clone https://github.com/punjjs/Phrase-1
+   ```
+   ```bash
+2. **Add data**
+   ```bash
+   Project 
+   ├── examine_image.py
+   ├── requirements.txt
+   ├── README.md
+   └── data/
+    └── (Uploaded images here)
+   ```
+3. **Create and activate `virtual environment`**
+   ```bash
+    python -m venv myenv
+    myenv\Scripts\activate
+   ```
+4. **Install dependencies**:
 
+   ```bash
+   pip install -r requirements.txt
+   ```
 
+5. ** add your Gemini API Key in `examine_image.py` code
 
+6. **Run the `examine_image.py` **:
+
+   ```bash
+   py examine_image.py
+   ```
