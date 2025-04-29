@@ -63,4 +63,4 @@
    py examine_image.py
    ```
    **On terminal you will find Extracted patient and doctor information.**
-  "This code extracts data from images starting with 1.jpg up to 129.jpg in the data folder. If you modify the starting path (e.g., 2.jpg instead of 1.jpg), it will extract data for the  new image, resulting in different extraction output."
+  "If you modify the starting path (e.g., 2.jpg instead of 1.jpg), it will extract data for the  new image, resulting in different extraction output."
