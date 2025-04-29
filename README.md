@@ -1,6 +1,7 @@
 # Medical Prescription Extractor
 
 - **Extract** patient and doctor information using **Google Gemini AI**.
+- [Link](https://www.kaggle.com/datasets/mehaksingal/illegible-medical-prescription-images-dataset) to data set.
 
 ---
 
